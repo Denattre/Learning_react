@@ -14,7 +14,7 @@ export default function PostFilter({ filter, setFilter }) {
         defaultValue="Сортировка"
         options={[
           { value: "title", name: "По заголовку" },
-          { value: "description", name: "По описанию" },
+          { value: "body", name: "По описанию" },
         ]}
         value={filter.sort}
         onChange={(selectedSort) =>
